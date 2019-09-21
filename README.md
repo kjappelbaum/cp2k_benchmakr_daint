@@ -19,12 +19,11 @@ A small guide on how to get the data needed for a production proposal ...
 
 * The structures we selected for the benchmark are disorder free, clean and known to converge and come from the [Curated MOFs](https://github.com/danieleongari/CURATED-MOFs).
 
-|------------------|----------------------|------------------------|-----------|----------------|
-| CSD Refcode      | name                 | metal                  | # atoms   | cell volume    |
-|------------------|----------------------|------------------------|-----------|----------------|
-| NAVJAW           | Co-MOF-74            | Co                     | 53        | 1322           |
-| KISXIU           | UMCM-1               | Zn                     | 510       | 26121          |
-| UTEWOG           | Ni3(BTP)2            | Ni                     | 252       | 6382           |
+| CSD Refcode | name      | metal | # atoms | cell volume |
+| ----------- | --------- | ----- | ------- | ----------- |
+| NAVJAW      | Co-MOF-74 | Co    | 53      | 1322        |
+| KISXIU      | UMCM-1    | Zn    | 510     | 26121       |
+| UTEWOG      | Ni3(BTP)2 | Ni    | 252     | 6382        |
 
 * For the benchmark, use converged structures to estimate the timings of one SCF cycle
 * You can get data on how many SCF cycles are needed on average by other means (e.g. take an average over the last relaxations you did for different system sizes)
